@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/funFactsLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#51b46d"
@@ -32,6 +33,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="@android:color/white"
-        android:text="Show Another Fun Fact" />
+        android:text="Show Another Fun Fact"
+        android:textColor="#51b46d"/>
 
 </RelativeLayout>

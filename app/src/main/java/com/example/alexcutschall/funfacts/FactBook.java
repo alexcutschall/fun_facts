@@ -3,7 +3,7 @@ package com.example.alexcutschall.funfacts;
 import java.util.Random;
 
 public class FactBook {
-    String[] facts = {
+    private String[] facts = {
             "Ants stretch when they wake up in the morning.",
             "Ostriches can run faster than horses.",
             "Olympic gold medals are actually made mostly of silver.",
@@ -16,10 +16,8 @@ public class FactBook {
             "Mammoths still walked the earth when the Great Pyramid was being built." };
 
     public String getFact() {
-
         Random randomGenerator = new Random();
         int randomNumber = randomGenerator.nextInt(facts.length);
         return facts[randomNumber];
-
     }
 }
